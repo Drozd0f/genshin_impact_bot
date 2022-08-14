@@ -1,0 +1,8 @@
+[flake8]
+max-line-length = 80
+show-source = True
+statistics = True
+exclude =
+    env/
+    venv/
+    __pycache__/

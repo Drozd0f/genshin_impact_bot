@@ -1,2 +1,3 @@
 # genshin_impact_rater_bot
-BOT for artifact evaluations separately and on specific characters
+
+[![Lint](https://github.com/Drozd0f/genshin_impact_rater_bot/actions/workflows/linter.yml/badge.svg)](https://github.com/Drozd0f/genshin_impact_rater_bot/actions/workflows/linter.yml)

@@ -1,3 +1,14 @@
+COMPOSE ?= docker-compose -f docker-compose.yml
+
+run:
+	$(COMPOSE) up --build --force-recreate -d
+
+rm:
+	$(COMPOSE) rm -sfv
+
+log:
+	$(COMPOSE) logs -f muzlag
+
 #$ sudo apt install tesseract-ocr
 #$ sudo apt install libtesseract-dev
 

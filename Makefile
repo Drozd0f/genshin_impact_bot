@@ -9,6 +9,9 @@ rm:
 log:
 	$(COMPOSE) logs -f muzlag
 
+lint:
+	@flake8
+
 #$ sudo apt install tesseract-ocr
 #$ sudo apt install libtesseract-dev
 

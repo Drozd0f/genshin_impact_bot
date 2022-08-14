@@ -11,6 +11,7 @@ log = logging.getLogger(__name__)
 
 def setup_command():
     BOT.add_command(handlers.ping)
+    BOT.add_command(handlers.rate)
 
     for command in BOT.commands:
         log.info(f"command --> {command}")
